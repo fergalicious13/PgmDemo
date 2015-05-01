@@ -1,5 +1,45 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="comment_comment" id="2" x="56" y="23">
+  <block type="comment_comment" id="2" x="56" y="16">
     <field name="TEXT">RRULULD</field>
+    <next>
+      <block type="movement_right" id="88">
+        <next>
+          <block type="movement_right" id="89">
+            <next>
+              <block type="movement_forward" id="106">
+                <next>
+                  <block type="movement_left" id="127">
+                    <next>
+                      <block type="movement_forward" id="107">
+                        <next>
+                          <block type="movement_left" id="128">
+                            <next>
+                              <block type="movement_reverse" id="144">
+                                <next>
+                                  <block type="robot_delay" id="52" inline="true">
+                                    <value name="DELAY">
+                                      <block type="math_number" id="60">
+                                        <field name="NUM">500</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="movement_stop" id="71"></block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
   </block>
 </xml>
